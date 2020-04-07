@@ -1,0 +1,254 @@
+body{
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2em;
+  color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+}
+
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+.row::after{
+  display: table;
+  clear: both;
+  content:"";
+}
+
+.col-1{width: 8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+
+/******* Custom Styles *******************/
+
+
+div.top-container{
+  text-align: center;
+  width: 100%;
+
+}
+
+
+h1.h1-Light{
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: hsl(234, 12%, 34%);
+}
+
+h1.h1-bolder{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+h2{
+  color: hsl(234, 12%, 34%);
+
+}
+
+.text-container{
+  width: 33.33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main{
+  padding: 0 15%;
+  font-size: 1.3rem;
+}
+
+
+
+
+div.box{
+  width:390px;
+  height: 280px;
+  background-color: hsl(0, 0%, 98%);
+  margin: auto;
+  display: block;
+  -webkit-box-shadow: 14px 21px 32px -4px rgba(154,154,156,0.42);
+  -moz-box-shadow: 14px 21px 32px -4px rgba(154,154,156,0.42);
+  box-shadow: 14px 21px 32px -4px rgba(154,154,156,0.42);
+  border-top: solid;
+  border-width: 8px;
+  border-radius: 8px;
+  padding: 15px;
+
+
+
+}
+
+div.top{
+  margin-bottom: 10%;
+}
+
+
+
+div.supervisor{
+  border-color: hsl(180, 62%, 55%);
+  margin-right: 0;
+
+}
+
+div.team-builder{
+  border-color: hsl(0, 78%, 62%);
+
+}
+
+div.karma{
+  border-color: hsl(34, 97%, 64%);
+
+}
+
+div.calculator{
+  border-color: hsl(212, 86%, 64%);
+  margin-left: 0;
+
+
+}
+
+h2,
+p{
+  padding:8px 130px 8px 15px;
+}
+
+img{
+  padding: 35px 5px 15px 280px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** Media Qrey **********************/
+
+
+
+@media screen and (max-width:1259px)  {
+
+
+
+.col-4{
+  width:50%;
+  display: block;
+  overflow: hidden;
+}
+
+}
+
+div.box,
+div.supervisor,
+div.calculator{
+  margin:auto;
+  margin-bottom: 20px;
+  padding: 0;
+  display: block;
+  width:390px;
+  height: 280px;
+}
+
+
+
+h1.h1-Light{
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: hsl(234, 12%, 34%);
+}
+
+h1.h1-bolder{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+main{
+
+}
+
+@media screen and (max-width:760px)  {
+
+.col-12,
+.col-4{
+  width:100%;
+  margin:auto;
+  display: block;
+}
+
+div.box,
+div.supervisor,
+div.calculator{
+  margin:auto;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  width:390px;
+  height: 280px;
+
+}
+
+
+.text-container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+h1.h1-Light{
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: hsl(234, 12%, 34%);
+}
+
+h1.h1-bolder{
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+}
+
+img{
+  width: 50%;
+}
+
+h2,
+p{
+  padding: 5px;
+  margin:0;
+}
+main{
+
+}
+}
+}
