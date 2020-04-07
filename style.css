@@ -137,21 +137,6 @@ img{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*********** Media Qrey **********************/
 
 
@@ -171,7 +156,7 @@ img{
 div.box,
 div.supervisor,
 div.calculator{
-  margin:auto;
+
   margin-bottom: 20px;
   padding: 0;
   display: block;
@@ -212,7 +197,7 @@ div.calculator{
   margin:auto;
   margin-bottom: 20px;
   padding: 0;
-  display: flex;
+  display: block;
   width:390px;
   height: 280px;
 
@@ -239,14 +224,12 @@ h1.h1-bolder{
 }
 
 img{
-  width: 50%;
+  padding: 0;
+  height: 25%;
+  padding: 35px 5px 15px 280px;
 }
 
-h2,
-p{
-  padding: 5px;
-  margin:0;
-}
+
 main{
 
 }
