@@ -7,33 +7,6 @@ body{
 }
 
 
-/* .row{
-  width: 100%;
-  display: flex;
-  flex-wrap:wrap;
-  align-items: center;
-  padding: 20px;
-  padding-bottom: 100px;
-}
-
-.row::after{
-  display: table;
-  clear: both;
-  content:"";
-}
-
-.col-1{width: 8.33%;}
-.col-2{width:16.66%;}
-.col-3{width:25%;}
-.col-4{width: 33.33%;}
-.col-5{width: 41.66%;}
-.col-6{width: 50%;}
-.col-7{width: 58.33%;}
-.col-8{width: 66.66%;}
-.col-9{width: 75%;}
-.col-10{width: 83.33%;}
-.col-11{width: 91.66%;}
-.col-12{width: 100%;} */
 
 
 @media(min-width:720px) {
@@ -60,15 +33,39 @@ body{
 
 }
 
+.text-container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-basis: 50%;
+
+}
 }
 
 
-@media(max-width:700px) {
+@media(max-width:720px) {
   .flexbox-1 div,
   .flexbox-2 div{
     margin:auto;
     margin-top: 10px;
   }
+
+  h1.h1-Light{
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: hsl(234, 12%, 34%);
+    line-height: 2rem;
+      text-align: center;
+  }
+
+  h1.h1-bolder{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+    line-height: 2rem;
+      text-align: center;
+  }
+
 
 }
 
@@ -77,23 +74,21 @@ body{
 /******* Custom Styles *******************/
 
 
-div.top-container{
-  text-align: center;
-  width: 100%;
 
-}
 
 
 h1.h1-Light{
   font-weight: 400;
   font-size: 2.3rem;
   color: hsl(234, 12%, 34%);
+  text-align: center;
 }
 
 h1.h1-bolder{
   font-size: 2.5rem;
   font-weight: 600;
   color: hsl(234, 12%, 34%);
+  text-align: center;
 }
 
 h2{
@@ -101,16 +96,12 @@ h2{
 
 }
 
-.text-container{
-  width: 66.66%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 main{
   padding: 0 15%;
   font-size: 1.3rem;
+  text-align: center;
 }
 
 
@@ -118,7 +109,7 @@ main{
 
 div.box{
   width:390px;
-  height: 280px;
+  height: 250px;
   background-color: hsl(0, 0%, 98%);
 
   -webkit-box-shadow: 14px 21px 32px -4px rgba(154,154,156,0.42);
@@ -127,6 +118,7 @@ div.box{
   border-top: solid;
   border-width: 8px;
   border-radius: 8px;
+  padding-bottom: 20px;
 
 
 
@@ -174,106 +166,3 @@ img{
 
 
 /*********** Media Qrey **********************/
-
-
-
-/**@media screen and (max-width:1259px)  {
-
-
-
-.col-4{
-  width:50%;
-  display: flex;
-  overflow: hidden;
-}
-
-}
-
-div.box,
-div.supervisor,
-div.calculator{
-
-  margin-bottom: 20px;
-  padding: 0;
-  display: block;
-  width:390px;
-  height: 280px;
-}
-
-
-
-h1.h1-Light{
-  font-weight: 400;
-  font-size: 1.6rem;
-  color: hsl(234, 12%, 34%);
-}
-
-h1.h1-bolder{
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: hsl(234, 12%, 34%);
-}
-
-main{
-
-}
-**/
-/* @media screen and (max-width:1259px)  {
-
-.col-12,
-.col-4{
-  width:100%;
-  margin:auto;
-  display: block;
-}
-
-div.box,
-div.supervisor,
-div.calculator{
-  margin:auto;
-  margin-bottom: 20px;
-  padding: 0;
-  display: block;
-  width:390px;
-  height: 280px;
-
-}
-
-
-.text-container{
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
-h1.h1-Light{
-  font-weight: 400;
-  font-size: 1.6rem;
-  color: hsl(234, 12%, 34%);
-}
-
-h1.h1-bolder{
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: hsl(234, 12%, 34%);
-}
-
-img{
-  padding: 0;
-  height: 25%;
-  padding: 35px 5px 15px 280px;
-}
-
-.text-container{
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-main{
-
-}
-}
-} */
