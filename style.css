@@ -38,6 +38,33 @@ body{
   justify-content: center;
   padding: 20px;
   flex-basis: 50%;
+  flex-direction: column;
+}
+
+h1.h1-Light{
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 0;
+
+}
+
+h1.h1-bolder{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+
+}
+
+main{
+  padding: 0 15%;
+  font-size: 1.3rem;
+  text-align: center;
+  width: 30%;
+  margin: auto;
 
 }
 }
@@ -51,22 +78,30 @@ body{
   }
 
   h1.h1-Light{
-    font-weight: 200;
-    font-size: 1.3rem;
+    font-weight: 400;
+    font-size: 2.3rem;
     color: hsl(234, 12%, 34%);
-    line-height: 2rem;
-      text-align: center;
+    line-height: 2.3rem;
+    text-align: center;
   }
 
   h1.h1-bolder{
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 2.5rem;
+    font-weight: 600;
     color: hsl(234, 12%, 34%);
-    line-height: 2rem;
-      text-align: center;
+    line-height: 2.3rem;
+    text-align: center;
   }
 
+  main{
 
+    font-size: 1.3rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    line-height: 1.4rem;
+
+  }
 }
 
 
@@ -76,21 +111,6 @@ body{
 
 
 
-
-h1.h1-Light{
-  font-weight: 400;
-  font-size: 2.3rem;
-  color: hsl(234, 12%, 34%);
-  text-align: center;
-}
-
-h1.h1-bolder{
-  font-size: 2.5rem;
-  font-weight: 600;
-  color: hsl(234, 12%, 34%);
-  text-align: center;
-}
-
 h2{
   color: hsl(234, 12%, 34%);
 
@@ -98,11 +118,6 @@ h2{
 
 
 
-main{
-  padding: 0 15%;
-  font-size: 1.3rem;
-  text-align: center;
-}
 
 
 
@@ -121,10 +136,7 @@ div.box{
   padding-bottom: 20px;
 
 
-
-
 }
-
 
 
 
@@ -159,10 +171,3 @@ img{
   padding: 35px 5px 15px 280px;
 
 }
-
-
-
-
-
-
-/*********** Media Qrey **********************/
